@@ -15,6 +15,7 @@ namespace FizzBuzz.Main
                 Console.WriteLine(fizzBuzzHandler.Handle(i));
             }
             Console.ReadKey();
+            
         }
     }
 }
