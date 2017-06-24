@@ -10,7 +10,7 @@ namespace FizzBuzz.Main
         {
             IFizzBuzzHandler fizzBuzzHandler = new Classes.FizzBuzz(new Fizz(new Buzz()));
 
-            for (int i = 1; i <= 100; i++)
+            for (int i = 1; i <= 200; i++)
             {
                 Console.WriteLine(fizzBuzzHandler.Handle(i));
             }
